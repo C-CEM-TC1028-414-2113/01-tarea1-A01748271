@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "OperacionesBasicas",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/01OperacionesBasicas",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "AreaTriangulo",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/02AreaTriangulo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Promedio",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/03Promedio",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Calculatiempo",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/04CalculaTiempo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Lustros",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/05Lustros",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
